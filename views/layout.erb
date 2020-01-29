@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Pizza Shop</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li>
-        <a href="/pizza-orders">Pizza Orders</a>
-      </li>
-      <li>
-        <a href="/pizza-orders/new">Order a Pizza</a>
-      </li>
-    </ul>
-  </nav>
-  <%= yield %>
-</body>
+  <head>
+    <title>Pizza Shop</title>
+    <link rel="stylesheet" href="/style.css"/>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="/pizza-orders">Pizza Orders</a>
+        </li>
+        <li>
+          <a href="/pizza-orders/new">Order a Pizza</a>
+        </li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+
+  </body>
 </html>
